@@ -1,0 +1,27 @@
+Key things considered when creating/consuming an API to ensure that it is secure and reliable
+
+(a) Authentication and authorization:
+ Make sure that the API requires authentication and uses appropriate authorization methods to ensure that only authorized users have access to the API and its resources. 
+ Example - Spring Security.
+
+(b) Input validation: 
+ Validate all input to the API to ensure that it is properly formatted and meets any requirements or constraints.
+ This helps to prevent attacks such as injection attacks, where an attacker attempts to inject malicious code into the API.
+
+(c) Use of secure communication protocols:
+ Use secure communication protocols such as HTTPS to encrypt all communication between the API and its clients.
+
+(d) Use of secure storage:
+ Store any sensitive data, such as passwords and other authentication credentials, securely using techniques such as hashing and salting.
+
+(e) Regular testing and vulnerability scanning:
+ Regularly test and scan the API for vulnerabilities to identify and fix any security issues.
+
+(f) Exception handling:
+ Implement proper Exception handling to prevent the disclosure of sensitive information in the event of an error.
+
+(g) Use of up-to-date libraries and frameworks:
+ Use up-to-date libraries and frameworks to take advantage of the latest security features and fixes.
+
+(h) Documentation:
+ Provide clear and comprehensive documentation for the API to help developers understand how to use it securely and correctly.
